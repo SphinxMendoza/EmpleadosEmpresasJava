@@ -14,5 +14,5 @@ public interface MetodosEmpresas {
 
 	public Respuesta buscar(String rfc);
 
-	public List<Empresa> empresas();
+	public List<Empresa> listar();
 }

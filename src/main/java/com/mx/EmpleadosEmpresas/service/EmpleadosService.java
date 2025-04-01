@@ -39,7 +39,7 @@ public class EmpleadosService implements MetodosEmpleados {
 		empleado = convertirMayusculas(empleado);
 		dao.save(empleado);
 		rs.setMensaje("El empleado se registro");
-		rs.setSuccess(false);
+		rs.setSuccess(true);
 		rs.setObj(empleado.getCurp());
 		return rs;
 	}
@@ -102,7 +102,7 @@ public class EmpleadosService implements MetodosEmpleados {
 	}
 
 	@Override
-	public List<Empleado> empresas() {
+	public List<Empleado> listar() {
 		// TODO Auto-generated method stub
 		return dao.findAll();
 	}

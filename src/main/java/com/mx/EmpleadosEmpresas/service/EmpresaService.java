@@ -109,7 +109,7 @@ public class EmpresaService implements MetodosEmpresas {
 	}
 
 	@Override
-	public List<Empresa> empresas() {
+	public List<Empresa> listar() {
 		// TODO Auto-generated method stub
 		return dao.findAll();
 	}

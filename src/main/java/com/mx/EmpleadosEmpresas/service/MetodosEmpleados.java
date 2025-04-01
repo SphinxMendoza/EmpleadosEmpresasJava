@@ -14,5 +14,5 @@ public interface MetodosEmpleados {
 
 	public Respuesta buscar(String curp);
 
-	public List<Empleado> empresas();
+	public List<Empleado> listar();
 }
